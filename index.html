@@ -75,7 +75,7 @@
     <br><br>
         <button id="1" type="button" class="button-7" onclick="loadDoc(this.getAttribute('id'))">Α: Φόρτωση Δεδομένων</button>
         <button id="2" type="button" class="button-7" onclick="loadDoc(this.getAttribute('id'))">Β: Ταξινόμηση Δεδομένων</button>
-        <button id="3" type="button" class="button-7" onclick="loadDoc(this.getAttribute('id'))">Γ: Εμφάνιση Παλαιότερου</button>
+        <button id="3" type="button" class="button-7" onclick="loadDoc(this.getAttribute('id'))">Γ: Εμφάνιση Nεότερου</button>
         <button id="4" type="button" class="button-7" onclick="loadDoc(this.getAttribute('id'))">Δ: Εμφάνιση Φθηνότερου</button>
     <br><br>
     
@@ -164,7 +164,7 @@
             "</td><td>" + x[0][3] +
             "</td><td>" + numberWithCommas(x[0][4]) +
             "</td></tr>";
-        document.getElementById("caption").innerHTML = "3o ερώτημα : Εμφάνιση του Παλαιότερου Έργου";
+        document.getElementById("caption").innerHTML = "3o ερώτημα : Εμφάνιση του Νεότερου Έργου";
         document.getElementById("paintings").innerHTML = table;
     
     }
