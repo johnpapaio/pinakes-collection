@@ -155,7 +155,7 @@
     function myFunction3(xml) {
         var A = [];
         A=fillArrayFromXML(xml);
-        var x =A.sort(function(a,b){ return a[3] - b[3] ; });
+        var x =A.sort(function(a,b){ return b[3] - a[3] ; });
         var table="<tr><th>A/A(Code)</th><th>Title</th><th>Painter</th><th>Year</th><th>Price(€)</th></tr>";
         table += 
             "<tr><td>" + x[0][0] + 
